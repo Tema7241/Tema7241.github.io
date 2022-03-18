@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	marging: 0;
+	box-sizing: bordeer-box;
+}
+@font-face{
+	font: family: "beer money" ;
+	srr: url("../font/beermoney.zip") format("truetype");
+	font-weight: normal;
+	font: style normal;
+}
+h1{color: red;
+font-size: 48px;
+font-family: 'Lobster', cursive;}
+p{color: dodgerblue;
+font-size 32px;
+font-family: 'Pacifico', cursive;}
+background: red;
+
+}
+span {
+background: hotpink;
+color: darkred; 
+}
+a{
+	text-decoration: none;
+	color: tomato;
+	margin: 20px;
+}
+	font: size:30px ;
+	font-family: "beer money";t
+	display: block;
+div{
+	width: 90%;
+	margin: auto;
+	background-color: whitesmoke;
+	padding: 50px;
+	}	
+	img{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	body{
+		font-size: 20px;
+		background-color: black;
+	}
