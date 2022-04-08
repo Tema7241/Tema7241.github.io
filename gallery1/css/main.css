@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: borden-box;
+
+}
+body{
+	background-color:#412 ;
+}
+.main {
+	background-color:#1B3213;
+	display: flex;
+	width:  95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 10px 1 px rgba(0, 0, 0, 0.3) ;	
+	flex-wrap: wrap;
+}
+.item {
+	max-height: 265px;
+	max-width: 490px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(50vw - 10px );
+	background-color: dodgerblue;
+	/*margin: 5px;*/
+	background-position: center ;
+	background-size: cover;
+	transition: all 0.3s ease;
+
+}
+	.heading{
+		font-size: 64px;
+		text-align: center;
+		width: 100%;
+		padding: 30px 0;
+		font-family:  'Send Flowers', cursive;
+		color: yellow;
+
+}
+
+.item:hover { 
+	 -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+   transform: rotate(10deg);
+  -webkit-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  -moz-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+   box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+}
+}
+.img_link{ 
+	margin: 5px;
+	display:block;
+	opacity: 1.5;
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(30, 144, 255, 0.4);
+
+}
+@media all and (max-width 768px){
+	.item{
+		max-width: initial;
+		max-height: initial;
+		width: 85%vw
+		height: calc(85vw / 16 * 9);
+	}
+	.img_link{
+		margin: auto ;
+	}
+}
+@media all and(min-width: 1200px)
+{
+	.item:hover { 
+	 -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+   transform: rotate(10deg);
+  -webkit-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  -moz-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+   box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+}
+}
+
+.link.wrapper{
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.author{
+	color: #111;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	text-decoration: none;
+	transition:  all 0.5 ease;
+}
+.author: hover {
+	border-color: #111;
+	color: #111;
+}
